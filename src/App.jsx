@@ -1,20 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import "./App.css";
+import Cabec from "./components/Cabec";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
     <div className="App">
-      <div className="superior">
-        <a href="https://www.cloverweb.com.ar/" target="_blank">
-          <img src="/logo.png" className="logo" alt="clover logo" />
-        </a>
-      </div>
-     
+      <Cabec />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
